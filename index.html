@@ -7,16 +7,76 @@
 <title>sample</title>
 <style type="text/css">
 
-#header img{
-width: 100%;
-text-align: center;
+#top{
+    background-image: url("img/header.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 750px;
+    width: auto;
 }
+
+#nav{
+    list-style: none;
+    overflow: hidden;
+}
+
+#nav li{
+    width: 140px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    float: left;
+    height: 50px;
+    line-height: 50px;
+    margin: 2px;
+}
+
+#ime{
+    background-color: rgba(0, 0, 0, 0.6);
+    text-align: center;
+    font-size: 105%;
+    height: 180px;
+    width: auto; 
+    color: white;
+}
+
+#nav li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 2px;
+}
+
+
+
+#book{
+  padding:10px;
+  text-align:center;
+  font-size: 0;
+}
+
+#plan{
+    background-color: #c0c0c0;
+    font-size: 85%;
+    width: 1120px;
+    height: 150px;
+    padding: 10px; 
+    text-align: center;
+    }
+
+#plan h3{
+    color: #a0522d;
+    font-size: 130%;
+}
+
+
+
 
 .cafe{
    display: inline-block;
    padding: 20px;
    height: 100px;
 }
+
 
 .interview1{
     display: inline-block;
@@ -26,127 +86,147 @@ text-align: center;
     display: inline-block;
 }
 
-
 </style>
+
 </head>
-
 <body>
-<div id="header">
- <header>
-    <img src="img/header.png">
- </header>
- <ul id="nav">
-    <li><a href="#">HOME</a></li>
-    <li><a href="#">CONCEPT</a></li>
-    <li><a href="#">SERVICE</a></li>
-    <li><a href="#">FLOOR</a></li>
-    <li><a href="#">BLOG</a></li>
-    <li><a href="#">INTERVIEW</a></li>
-    <li><a href="#">BLOG</a></li>
-    <li><a href="#">ACCESS</a></li>
-    <li><a href="#">DOWNLOAD</a></li>
-  </ul>
+
+    <div id="top">
+        <ul id="nav">
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">CONCEPT</a></li>
+            <li><a href="#">SERVICE</a></li>
+            <li><a href="#">FLOOR</a></li>
+            <li><a href="#">BLOG</a></li>
+            <li><a href="#">INTERVIEW</a></li>
+            <li><a href="#">BLOG</a></li>
+            <li><a href="#">ACCESS</a></li>
+            <li><a href="#">DOWNLOAD</a></li>
+          </ul>
+ </div>
+
+ <div id="ime">
+  <br>
+  <h3>カフェで読書＆コワーキング。快適のフロアスペース空間。</h3>
+  カフェエリアでコーヒーを注文し、ブックエリアでお好みの本を選び、
+  コワーキングスペースでコーヒーと共に読書を楽しむ。
+  <br>学校･仕事帰りに、平日の日中に、休日にゆっくり。さまざまなライフスタイルに合わせて
+ ご利用いただける多彩なプランをご用意しております。
+ </div>
 
 
-<h3>カフェで読書＆コワーキング。快適のフロアスペース空間。</h3>
-*************
-<br>**********
+<br>
+<br>
+<br>
+<br>
+
+<div class="ime2">
+
+    <div id="book">
+        <img src="img/book.jpeg" alt="本とコーヒー"
+            width="280" height="230">
+        <img src="img/top2-1.jpg" alt="カフェ1"
+            width="280" height="230">
+        <img src="img/cofee.jpg" alt="本とコーヒー2"
+            width="280" height="230">
+        <img src="img/top2_2.jpg" alt="カフェ2"
+            width="280" height="230">
+    </div>
+    
+        <div id="plan">
+          <h3>人と人、本と本が繋がるまったく新しい快適時間。</h3>
+          月額プラン以外にビジター料金でのご利用も可能です。
+          通いやすい時間や曜日に合わせてプランをお選び下さい。
+         <br>ご登録プランは後の変更も可能ですので、資格試験等の目標がある場合など
+         環境の変化に合わせて柔軟に対応しております。WiFiも電源も標準設備しており、
+         <br>時間を気にせず仕事や勉強に取り組めます。カフェでの長いは気が引けるという方にも
+         心置きなくご利用いただけます。
+         <br>
+       </div>     
+
 </div>
-
-<img src="img/book.jpeg" alt="本とコーヒー"
-    width="260" height="230">
-<img src="img/top2-1.jpg" alt="カフェ1"
-    width="260" height="230">
-<img src="img/cofee.jpg" alt="本とコーヒー2"
-    width="260" height="230">
-<img src="img/top2_2.jpg" alt="カフェ2"
-    width="260" height="230">
-<br>
-
-<h4>人と人、本と本が繋がるまったく新しい快適時間。</h4>
-**************************
-<br>***********************
-<br>***********************
 <br>
 <br>
-
-<div class="cafe">
-CONCEPT
-<br>
-<img src="img/top_3box_1.jpg" alt="コンセプト"
-    width="260" height="230">
-<br>
-<button>コンセプト</button>
-</div>
-
-<div class="cafe">
-SERVECE
-<br>
-<img src="img/top_3box_2.jpg" alt="サービス"
-    width="200" height="230">
- <br> <button>サービス</button>
-</div>
 
  <div class="cafe">
-FLOOR
-<br>
-<img src="img/cafe.jpg" alt="フロアー"
-    width="200" height="230">
-  <br>  <button>フロアー</button>
-</div>
-
-<br>
-
-<h3>Interview</h3>インタビュー
-<br>
-<div class="interview1">
-片平　愛さん
-20代
-<br>
-<img src="img/i_1-740x512.jpg" alt="片平 愛"
-    width="300" height="240">
-    </div>
-
-<div class="interview1">
-田島　結衣さん
-20代
-<br>
-<img src="img/i_15-740x512.jpg" alt="田島 結衣"
-    width="300" height="240">
-</div>
+ CONCEPT
+ <br>
+ <img src="img/top_3box_1.jpg" alt="コンセプト"
+     width="260" height="230">
+ <br>
+ <button>コンセプト</button>
+ </div>
+ 
+ <div class="cafe">
+ SERVECE
+ <br>
+ <img src="img/top_3box_2.jpg" alt="サービス"
+     width="200" height="230">
+  <br> <button>サービス</button>
+ </div>
+ 
+  <div class="cafe">
+ FLOOR
+ <br>
+ <img src="img/cafe.jpg" alt="フロアー"
+     width="200" height="230">
+   <br>  <button>フロアー</button>
+ </div>
+ 
+ <br>
+ 
+ <h3>Interview</h3>インタビュー
+ <br>
+ <div class="interview1">
+ 片平　愛さん
+ 20代
+ <br>
+ <img src="img/i_1-740x512.jpg" alt="片平 愛"
+     width="300" height="240">
+     </div>
  
  <div class="interview1">
- 的場　清一さん
+ 田島　結衣さん
+ 20代
+ <br>
+ <img src="img/i_15-740x512.jpg" alt="田島 結衣"
+     width="300" height="240">
+ </div>
+  
+  <div class="interview1">
+  的場　清一さん
+  10代
+  <br>
+ <img src="img/i_11-740x512.jpg" alt="的場　清一"
+     width="300" height="240">
+ </div>
+ <br>   
+ 
+ <div class="interview2">
+ 渡辺　智也さん
+ 30代
+ <br>
+ <img src="img/i_19-740x512.jpg" alt="渡辺　智也"
+     width="300" height="240">
+    </div>
+   
+     <div class="interview2">
+ 石丸　美奈さん
  10代
  <br>
-<img src="img/i_11-740x512.jpg" alt="的場　清一"
-    width="300" height="240">
-</div>
-<br>   
+ <img src="img/i_8-740x512.jpg" alt="石丸 美奈"
+     width="300" height="240">
+ </div>
+        
+     <div class="interview2">
+ 久来　美希さん
+ 20代
+ <br>
+ <img src="img/i_9-740x512.jpg" alt="久来　美希"
+     width="300" height="240">
+ </div>
 
-<div class="interview2">
-渡辺　智也さん
-30代
-<br>
-<img src="img/i_19-740x512.jpg" alt="渡辺　智也"
-    width="300" height="240">
-   </div>
-  
-    <div class="interview2">
-石丸　美奈さん
-10代
-<br>
-<img src="img/i_8-740x512.jpg" alt="石丸 美奈"
-    width="300" height="240">
-</div>
-       
-    <div class="interview2">
-久来　美希さん
-20代
-<br>
-<img src="img/i_9-740x512.jpg" alt="久来　美希"
-    width="300" height="240">
-</div>
+
 
 </body>
 </html>
