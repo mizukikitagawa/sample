@@ -59,10 +59,15 @@
     font-size: 130%;
 }
 
+
+
 #concept{
     background-color: #c0c0c0;
     width: 360px;
     height: 420px;
+    display: inline-block;
+    vertical-align: top;
+    float: left;
     text-align: center;
 }
 
@@ -70,6 +75,9 @@
     background-color: #c0c0c0;
     width: 360px;
     height: 420px;
+    display: inline-block;
+    vertical-align: top;
+    float: left;
     text-align: center;
 }
 
@@ -77,6 +85,8 @@
     background-color: #c0c0c0;
     width: 360px;
     height: 420px;
+    display: inline-block;
+    vertical-align: top;
     text-align: center;
 }
 
