@@ -63,31 +63,30 @@
 
 #concept{
     background-color: #c0c0c0;
-    width: 360px;
-    height: 420px;
-    display: inline-block;
-    vertical-align: top;
-    float: left;
+    width: 320px;
+    height: 360px;
+   float: left;
     text-align: center;
+    font-size: 78%;
 }
 
 #SERVECE{
     background-color: #c0c0c0;
-    width: 360px;
-    height: 420px;
-    display: inline-block;
-    vertical-align: top;
-    float: left;
+    width: 320px;
+    height: 360px;
+    position: relative;
+   float: left;
     text-align: center;
+    font-size: 78%;
 }
 
 #floor{
     background-color: #c0c0c0;
-    width: 360px;
-    height: 420px;
-    display: inline-block;
-    vertical-align: top;
-    text-align: center;
+    width: 320px;
+    height: 360px;
+ float: left;
+   margin-top: 0;
+   font-size: 78%;
 }
 
 
