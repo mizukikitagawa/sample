@@ -1,0 +1,91 @@
+#top{
+    background-image: url("img/header.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 750px;
+    width: auto;
+}
+
+#nav{
+    list-style: none;
+    overflow: hidden;
+}
+
+#nav li{
+    width: 140px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    float: left;
+    height: 50px;
+    line-height: 50px;
+    margin: 2px;
+}
+
+#ime{
+    background-color: rgba(0, 0, 0, 0.6);
+    text-align: center;
+    font-size: 105%;
+    height: 180px;
+    width: auto; 
+    color: white;
+}
+
+#nav li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 2px;
+}
+
+
+#book{
+    display: flex;
+  padding:10px;
+  text-align:center;
+  font-size: 0;
+}
+
+#plan{
+    background-color: #c0c0c0;
+    font-size: 85%;
+    width: 1120px;
+    height: 150px;
+    padding: 10px; 
+    text-align: center;
+    }
+
+#plan h3{
+    color: #a0522d;
+    font-size: 130%;
+}
+
+#concept{
+    background-color: #c0c0c0;
+    width: 360px;
+    height: 420px;
+    text-align: center;
+}
+
+#SERVECE{
+    background-color: #c0c0c0;
+    width: 360px;
+    height: 420px;
+    text-align: center;
+}
+
+#floor{
+    background-color: #c0c0c0;
+    width: 360px;
+    height: 420px;
+    text-align: center;
+}
+
+
+
+.interview1{
+    display: inline-block;
+}
+
+.interview2{
+    display: inline-block;
+}
