@@ -1,5 +1,5 @@
 #top{
-    background-image: url("img/header.png");
+    background-image: url("../img/header.png");
     background-repeat: no-repeat;
     background-size: cover;
     height: 750px;
@@ -39,8 +39,10 @@
 
 
 #book{
-    display: flex;
-  padding:10px;
+  display: flex;
+  margin-left: 96px;
+  padding:0px;
+  max-width: 150%;
   text-align:center;
   font-size: 0;
 }
@@ -59,42 +61,103 @@
     font-size: 130%;
 }
 
-
-
 #concept{
     background-color: #c0c0c0;
     width: 320px;
-    height: 360px;
-   float: left;
+    height: 415px;
+    margin: 20px;
+    margin-left: 100px;
     text-align: center;
-    font-size: 78%;
+    font-size: 86%;
 }
 
 #SERVECE{
     background-color: #c0c0c0;
     width: 320px;
-    height: 360px;
-    position: relative;
-   float: left;
+    height: 415px;
+    margin: 20px;
+    margin-left: 65px;
     text-align: center;
-    font-size: 78%;
+    font-size: 88%;
 }
 
 #floor{
     background-color: #c0c0c0;
     width: 320px;
-    height: 360px;
- float: left;
-   margin-top: 0;
-   font-size: 78%;
+    height: 415px;
+    margin: 20px;
+    margin-left: 63px;
+    text-align: center;
+   font-size: 88%;
+}
+
+span{
+    font-size: 300%;
+    font-weight: 700;
+    margin-left: 200px;
+}
+
+#kthr{
+    background-color: #c0c0c0;
+    width: 250px;
+    height: 310px;
+    margin: 20px;
+    margin-left: 200px;
+    text-align: center;
+    font-size: 80%;
+}
+
+#tzm{
+    background-color: #c0c0c0;
+    width: 250px;
+    height: 310px;
+    margin: 20px;
+    margin-left: 65px;
+    text-align: center;
+    font-size: 80%;
+}
+
+#mtb{
+    background-color: #c0c0c0;
+    width: 250px;
+    height: 310px;
+    margin: 20px;
+    margin-left: 65px;
+    text-align: center;
+    font-size: 80%;
 }
 
 
-
-.interview1{
-    display: inline-block;
+#wtnb{
+    background-color: #c0c0c0;
+    width: 250px;
+    height: 300px;
+    margin: 20px;
+    margin-left: 200px;
+    text-align: center;
+    font-size: 80%;
 }
 
-.interview2{
-    display: inline-block;
+#ismr{
+    background-color: #c0c0c0;
+    width: 250px;
+    height: 300px;
+    margin: 20px;
+    margin-left: 65px;
+    text-align: center;
+    font-size: 80%;
+}
+
+#kri{
+    background-color: #c0c0c0;
+    width: 250px;
+    height: 300px;
+    margin: 20px;
+    margin-left: 65px;
+    text-align: center;
+    font-size: 80%;
+}
+
+.addres{
+    text-align: center;
 }
