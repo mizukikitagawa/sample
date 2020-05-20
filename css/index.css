@@ -130,6 +130,14 @@ span{
     font-size: 80%;
 }
 
+#kthr span{
+    background-color: black;
+    color: white;
+    font-size: 107%;
+    text-align: center;
+    height: 23px;
+}
+
 #tzm{
     background-color: #c0c0c0;
     width: 250px;
@@ -140,6 +148,13 @@ span{
     font-size: 80%;
 }
 
+#tzm span{
+    background-color: black;
+    color: white;
+    font-size: 107%;
+    text-align: center;
+    height: 23px;
+}
 #mtb{
     background-color: #c0c0c0;
     width: 250px;
@@ -148,6 +163,14 @@ span{
     margin-left: 65px;
     text-align: center;
     font-size: 80%;
+}
+
+#mtb span{
+    background-color: black;
+    color: white;
+    font-size: 107%;
+    text-align: center;
+    height: 23px;
 }
 
 
@@ -161,6 +184,14 @@ span{
     font-size: 80%;
 }
 
+#wtnb span{
+    background-color: black;
+    color: white;
+    font-size: 107%;
+    text-align: center;
+    height: 23px;
+}
+
 #ismr{
     background-color: #c0c0c0;
     width: 250px;
@@ -171,6 +202,14 @@ span{
     font-size: 80%;
 }
 
+#ismr span{
+    background-color: black;
+    color: white;
+    font-size: 107%;
+    text-align: center;
+    height: 23px;
+}
+
 #kri{
     background-color: #c0c0c0;
     width: 250px;
@@ -179,6 +218,14 @@ span{
     margin-left: 65px;
     text-align: center;
     font-size: 80%;
+}
+
+#kri span{
+    background-color: black;
+    color: white;
+    font-size: 107%;
+    text-align: center;
+    height: 23px;
 }
 
 .box2{
