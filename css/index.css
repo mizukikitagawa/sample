@@ -122,12 +122,12 @@ span{
 #kthr{
     position: relative;
     background-color: #c0c0c0;
-    width: 250px;
-    height: 325px;
+    width: 280px;
+    height: 240px;
     margin: 20px;
     margin-left: 200px;
-    text-align: center;
     font-size: 80%;
+    text-align: center;
 }
 
 #kthr span{
@@ -138,10 +138,19 @@ span{
     height: 23px;
 }
 
-#tzm{
+#koe{
     background-color: #c0c0c0;
     width: 250px;
-    height: 325px;
+    height: 75px;
+    margin-top: 0;
+    padding: 15px;
+    text-align: left;
+}
+
+#tzm{
+    background-color: #c0c0c0;
+    width: 280px;
+    height: 240px;
     margin: 20px;
     margin-left: 65px;
     text-align: center;
@@ -158,8 +167,8 @@ span{
 
 #mtb{
     background-color: #c0c0c0;
-    width: 250px;
-    height: 325px;
+    width: 280px;
+    height: 240px;
     margin: 20px;
     margin-left: 65px;
     text-align: center;
@@ -177,8 +186,8 @@ span{
 
 #wtnb{
     background-color: #c0c0c0;
-    width: 250px;
-    height: 325px;
+    width: 280px;
+    height: 240px;
     margin: 20px;
     margin-left: 200px;
     text-align: center;
@@ -195,15 +204,15 @@ span{
 
 #ismr{
     background-color: #c0c0c0;
-    width: 250px;
-    height: 325px;
+    width: 280px;
+    height: 240px;
     margin: 20px;
     margin-left: 65px;
     text-align: center;
     font-size: 80%;
 }
 
-#kri span{
+#ismr span{
     background-color: black;
     color: white;
     font-size: 107%;
@@ -213,8 +222,8 @@ span{
 
 #kri{
     background-color: #c0c0c0;
-    width: 250px;
-    height: 325px;
+    width: 280px;
+    height: 240px;
     margin: 20px;
     margin-left: 65px;
     text-align: center;
