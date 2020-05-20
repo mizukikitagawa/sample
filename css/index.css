@@ -40,9 +40,9 @@
 
 #book{
   display: flex;
-  margin-left: 96px;
+  margin-left: -103px;
   padding:0px;
-  max-width: 150%;
+  max-width: 120%;
   text-align:center;
   font-size: 0;
 }
@@ -91,16 +91,39 @@
    font-size: 88%;
 }
 
+.box{
+    background-color: black;
+    color: white;
+    height: 28px;
+    width: 92px;
+    text-align: center;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;    
+}
+
+
 span{
     font-size: 300%;
     font-weight: 700;
     margin-left: 200px;
 }
 
+.box1{
+    background-color: black;
+    color: white;
+    height: 40px;
+    width: 120px;
+    font-size: 100%;
+    text-align: center;
+    margin-left: 450px;   
+}
+
 #kthr{
+    position: relative;
     background-color: #c0c0c0;
     width: 250px;
-    height: 310px;
+    height: 325px;
     margin: 20px;
     margin-left: 200px;
     text-align: center;
@@ -110,7 +133,7 @@ span{
 #tzm{
     background-color: #c0c0c0;
     width: 250px;
-    height: 310px;
+    height: 325px;
     margin: 20px;
     margin-left: 65px;
     text-align: center;
@@ -120,7 +143,7 @@ span{
 #mtb{
     background-color: #c0c0c0;
     width: 250px;
-    height: 310px;
+    height: 325px;
     margin: 20px;
     margin-left: 65px;
     text-align: center;
@@ -131,7 +154,7 @@ span{
 #wtnb{
     background-color: #c0c0c0;
     width: 250px;
-    height: 300px;
+    height: 325px;
     margin: 20px;
     margin-left: 200px;
     text-align: center;
@@ -141,7 +164,7 @@ span{
 #ismr{
     background-color: #c0c0c0;
     width: 250px;
-    height: 300px;
+    height: 325px;
     margin: 20px;
     margin-left: 65px;
     text-align: center;
@@ -151,13 +174,33 @@ span{
 #kri{
     background-color: #c0c0c0;
     width: 250px;
-    height: 300px;
+    height: 325px;
     margin: 20px;
     margin-left: 65px;
     text-align: center;
     font-size: 80%;
 }
 
+.box2{
+    background-color: black;
+    color: white;
+    width: 35px;
+    height: 40px;
+}
+
+
 .addres{
     text-align: center;
+}
+
+.sns p{
+    text-align: center;
+}
+
+.copy{
+    background-color: black;
+    color: white;
+    font-size: 40%;
+    text-align: center;
+    height: 30px;
 }
