@@ -21,6 +21,12 @@
 .menu{
     left: 45%;
     font-size: 95%;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: white;
 }
 
 #nav{
