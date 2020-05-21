@@ -7,17 +7,20 @@
     color: white;
 }
 
-#menu{
+#ber{
     background-color: rgba(0, 0, 0, 0.5);
     width: auto;
-    height: 45px;
-    font-size: 100%;
-    text-align: center;
-    margin-right: -50%;
+    height: 50px;
 }
 
-#menu span{
-    margin-left:-20%;
+.title{
+    left: 20%;
+    font-size: 180%;
+}
+
+.menu{
+    left: 45%;
+    font-size: 95%;
 }
 
 #nav{
@@ -274,6 +277,15 @@ span{
 }
 
 .sns p{
+    text-align: center;
+}
+
+.under{
+    background-color: #e6e6fa;
+    color: black;
+    width: auto;
+    height: 20px;
+    font-size: 78%;
     text-align: center;
 }
 
