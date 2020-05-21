@@ -157,7 +157,7 @@ span{
     width: 280px;
     height: 240px;
     margin: 20px;
-    margin-left: 200px;
+    margin-left: 170px;
     font-size: 80%;
     text-align: center;
 }
@@ -221,7 +221,7 @@ span{
     width: 280px;
     height: 240px;
     margin: 20px;
-    margin-left: 200px;
+    margin-left: 170px;
     text-align: center;
     font-size: 80%;
 }
@@ -288,11 +288,14 @@ span{
 
 .under{
     background-color: #e6e6fa;
-    color: black;
     width: auto;
     height: 20px;
     font-size: 78%;
     text-align: center;
+}
+
+.under a{
+    color: black;
 }
 
 .copy{
