@@ -1,3 +1,8 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
 #top{
     background-image: url("../img/header.png");
     background-repeat: no-repeat;
@@ -16,6 +21,10 @@
 .title{
     left: 20%;
     font-size: 180%;
+}
+
+nav{
+    scroll-behavior: smooth;
 }
 
 .menu{
@@ -40,7 +49,6 @@ a{
 }
 
 
-
 #book{
   display: flex;
   margin-left: -103px;
@@ -63,6 +71,14 @@ a{
     color: #a0522d;
     font-size: 130%;
 }
+
+
+.con{
+    color: #a0522d;
+    font-size: 90%;
+    margin-left: 2%;
+}
+
 
 #concept{
     background-color: #c0c0c0;
@@ -121,6 +137,12 @@ span{
     margin-left: 200px;
 }
 
+.vew{
+    font-size: 100%;
+    margin-top: 30px;
+    margin-left: 3px;
+}
+
 .box1{
     background-color: black;
     color: white;
@@ -129,6 +151,7 @@ span{
     font-size: 100%;
     text-align: center;
     margin-left: 450px;   
+    margin-top: 20px;
 }
 
 #kthr{
@@ -261,6 +284,12 @@ span{
 #access{
     text-align: center;
 }
+
+.mise{
+    font-weight: 250%;
+    margin-left: 3%;
+}
+
 
 .sns p{
     text-align: center;
