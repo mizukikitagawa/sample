@@ -29,20 +29,6 @@ a{
     color: white;
 }
 
-#nav{
-    list-style: none;
-    overflow: hidden;
-}
-
-#nav li{
-    width: 140px;
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.5);
-    float: left;
-    height: 50px;
-    line-height: 50px;
-    margin: 2px;
-}
 
 #ime{
     background-color: rgba(0, 0, 0, 0.6);
@@ -53,12 +39,6 @@ a{
     color: white;
 }
 
-#nav li a{
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-    padding: 2px;
-}
 
 
 #book{
