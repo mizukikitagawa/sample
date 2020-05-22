@@ -72,11 +72,17 @@ a{
     font-size:130%;
 }
 
+.con{
+    color: #a0522d;
+    font-size: 95%;
+    margin-left: 40%;
+    font-weight: bold;
+}
 
 #pic{
     display: inline-block;
     vertical-align: bottom;
-    padding-left: 35px;
+    padding-left: 30px;
 }
 
 #ime2{
@@ -126,7 +132,11 @@ span{
     display: inline-block;
 }
 
-#pic{
+#name{
+    font-size: 105%;
+}
+
+#pic2{
     display: inline-block;
     vertical-align: bottom;
     padding-left: 30px;
