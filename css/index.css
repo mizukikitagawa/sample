@@ -69,55 +69,24 @@ a{
 
 #plan h3{
     color: #a0522d;
-    font-size: 130%;
+    font-size:130%;
 }
 
 
-.con{
-    color: #a0522d;
-    font-size: 90%;
-    margin-left: 2%;
-    font-weight: bold;
-}
-
-
-#concept{
-    background-color: #c0c0c0;
-    width: 300px;
-    height: 278px;
-    margin: 20px;
-    margin-left: 120px;
-    text-align: center;
-    font-size: 86%;
-}
-
-#SERVECE{
-    background-color: #c0c0c0;
-    width: 300px;
-    height: 278px;
-    margin: 20px;
-    margin-left: 65px;
-    text-align: center;
-    font-size: 88%;
-}
-
-#floor{
-    background-color: #c0c0c0;
-    width: 300px;
-    height: 278px;
-    margin: 20px;
-    margin-left: 63px;
-    text-align: center;
-   font-size: 88%;
+#pic{
+    display: inline-block;
+    vertical-align: bottom;
+    padding-left: 35px;
 }
 
 #ime2{
     background-color: #c0c0c0;
     width: 270px;
-    height: 150px;
+    height: 132px;
     padding: 15px;
-    margin-top: 0;
+    margin-top: -7px;
     text-align: left;
+    font-size: 80%;
 }
 
 .box{
@@ -157,11 +126,10 @@ span{
     display: inline-block;
 }
 
-
-
 #pic{
     display: inline-block;
     vertical-align: bottom;
+    padding-left: 30px;
 }
 
 .yaku{
